@@ -92,23 +92,19 @@ header .about-me .profile-container #profile-id {
 }
 
 header .about-me .description {
-  padding: 20px 40px 20px 30px;
+  padding: 0 40px 0 30px;
   background-color: white;
 }
 
 header .about-me .description .detail {
   font-size: 1.2rem;
   line-height: 2rem;
-  margin-bottom: 48px;
 }
 
 header .about-me .description .social-links {
   display: flex;
   justify-content: flex-end;
   gap: 24px;
-}
-
-header .about-me .description .social-links a i {
   font-size: 2rem;
 }
 
@@ -161,6 +157,39 @@ main .projects .project-card .project-detail .project-description {
   grid-column: 1 / 3;
 }
 
+footer {
+  background-color: var(--color-gold);
+}
+
+footer .contact-me {
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+  gap: 36px;
+}
+
+footer .contact-me .contact-details .title {
+  margin: 0;
+}
+
+footer .contact-me .contact-details p {
+  font-size: 1.2rem;
+}
+
+footer .contact-me .contact-details svg {
+  width: 1.2rem;
+  margin-right: 8px;
+  margin-bottom: -2px;
+}
+
+footer .contact-me .contact-details .social-links {
+  display: flex;
+  gap: 24px;
+  font-size: 2rem;
+}
+
 footer .contact-me img.contact-decoration {
-  max-width: 100%;
+  width: 100%;
+  height: 420px;
+  object-fit: cover;
+  object-position: 50% 40%;
 }
