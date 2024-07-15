@@ -81,6 +81,7 @@ header .about-me .profile-container img#profile-picture {
   width: 480px;
   height: 600px;
   object-fit: cover;
+  object-position: 75% center;
 }
 
 header .about-me .profile-container #profile-id {
