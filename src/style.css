@@ -44,7 +44,7 @@ ul.links {
 .section-container {
   max-width: 1280px;
   padding: 60px;
-  margin: auto;
+  margin: 0 auto;
 }
 
 svg{
@@ -160,6 +160,7 @@ main .projects .project-card .project-detail .project-description {
 
 footer {
   background-color: var(--color-gold);
+  margin-top: 60px;
 }
 
 footer .contact-me {
