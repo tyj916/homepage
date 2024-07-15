@@ -67,7 +67,7 @@ header {
   background: linear-gradient(165deg, var(--color-gold) 0%, var(--color-gold) 50%, rgba(255, 255, 255) 50%, rgba(255, 255, 255) 100%);
 }
 
-header .section-container {
+header .about-me {
   display: flex;
   align-items: center;
 }
@@ -90,6 +90,7 @@ header .about-me .profile-container #profile-id {
   text-align: center;
   transform: translateY(-3rem);
   color: white;
+  text-shadow: 3px 3px 4px rgba(0, 0, 0, 0.2);
 }
 
 header .about-me .description {
@@ -116,7 +117,7 @@ header .about-me .description {
 
 main .projects {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   gap: 32px;
 }
 
@@ -194,4 +195,43 @@ footer .contact-me img.contact-decoration {
   height: 420px;
   object-fit: cover;
   object-position: 50% 40%;
+}
+
+@media (max-width: 960px) {
+  .section-container {
+    padding: 60px 80px;
+  }
+
+  header .about-me {
+    display: block;
+    position: relative;
+  }
+  
+  header .about-me .profile-container {
+    margin-left: -45px;
+    margin-right: 20px;
+  }
+
+  header .about-me .profile-container img#profile-picture {
+    width: 360px;
+    height: 480px;
+  }
+
+  header .about-me .profile-container #profile-id {
+    line-height: normal;
+    text-align: start;
+    transform: translateY(0);
+    position: absolute;
+    top: 80px;
+    left: 50%;
+  }
+
+  header .about-me .description {
+    padding: 20px;
+    margin-top: 100px;
+  }
+
+  header .about-me .description .title {
+    text-align: center;
+  }
 }
