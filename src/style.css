@@ -283,6 +283,10 @@ footer .contact-me img.contact-decoration {
     justify-content: center;
   }
 
+  main .projects {
+    grid-template-columns: 1fr;
+  }
+
   footer .section-container {
     padding: 0;
   }
@@ -309,5 +313,16 @@ footer .contact-me img.contact-decoration {
     font-size: 3rem;
     gap: 36px;
     margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 360px) {
+  main .projects .project-card .project-detail {
+    display: block;
+  }
+
+  footer .contact-me .contact-details .social-links {
+    flex-direction: column;
+    align-items: center;
   }
 }
