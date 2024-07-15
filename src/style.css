@@ -129,6 +129,8 @@ main .projects .project-card .project-image-link .project-image {
   width: 100%;
   height: 280px;
   background-color: grey;
+  object-fit: cover;
+  object-position: top;
 }
 
 main .projects .project-card .project-detail {
