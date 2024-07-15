@@ -137,7 +137,7 @@ main .projects .project-card .project-detail {
   grid-template-rows: auto 1fr;
   gap: 16px;
   padding: 12px 24px 24px;
-  height: 200px;
+  height: 160px;
 }
 
 main .projects .project-card .project-detail * {
@@ -202,6 +202,10 @@ footer .contact-me img.contact-decoration {
     padding: 60px 80px;
   }
 
+  header {
+    background: linear-gradient(155deg, var(--color-gold) 0%, var(--color-gold) 50%, rgba(255, 255, 255) 50%, rgba(255, 255, 255) 100%);
+  }
+
   header .about-me {
     display: block;
     position: relative;
@@ -241,5 +245,69 @@ footer .contact-me img.contact-decoration {
 }
 
 @media (max-width: 648px) {
+  .section-container {
+    padding: 20px;
+  }
 
+  header {
+    background: linear-gradient(145deg, var(--color-gold) 0%, var(--color-gold) 38%, rgba(255, 255, 255) 38%, rgba(255, 255, 255) 100%);
+  }
+
+  header .about-me .profile-container {
+    margin: 0;
+    padding: 20px;
+  }
+
+  header .about-me .profile-container img#profile-picture {
+    width: 100%;
+  }
+
+  header .about-me .profile-container #profile-id {
+    line-height: 0;
+    text-align: center;
+    transform: translateY(-3rem);
+    position: static;
+  }
+
+  header .about-me .description {
+    box-shadow: none;
+    background: none;
+    padding: 0;
+  }
+
+  header .about-me .description .title {
+    margin: 0;
+  }
+
+  header .about-me .description .social-links {
+    justify-content: center;
+  }
+
+  footer .section-container {
+    padding: 0;
+  }
+
+  footer .contact-me {
+    grid-template-columns: 1fr;
+  }
+
+  footer .contact-me .title {
+    text-align: center;
+  }
+
+  footer .contact-me .contact-details {
+    padding: 40px 20px 0;
+  }
+
+  footer .contact-me .contact-details .call-to-action {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
+  footer .contact-me .contact-details .social-links {
+    justify-content: center;
+    font-size: 3rem;
+    gap: 36px;
+    margin-bottom: 10px;
+  }
 }
