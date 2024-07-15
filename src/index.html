@@ -12,7 +12,16 @@
   <header>
     <div class="section-container about-me">
       <div class="profile-container">
-        <img src="./img/cat-yawn-1280w.jpg" alt="Picture of me working" id="profile-picture">
+        <img 
+          srcset="
+            ./img/cat-yawn-300w.jpg 300w,
+            ./img/cat-yawn-600w.jpg 600w
+          " 
+          sizes="50vmin"
+          src="./img/cat-yawn-1280w.jpg" 
+          alt="Picture of me working" 
+          id="profile-picture"
+        >
         <h1 class="title" id="profile-id">Tan Yi Jun</h1>
       </div>
 
@@ -201,7 +210,14 @@
         </ul>
       </div>
   
-      <img src="./img/cat-laptop-1280w.jpg" alt="" class="contact-decoration">
+      <img 
+        srcset="
+          ./img/cat-laptop-600w.jpg 600w
+        "
+        src="./img/cat-laptop-1280w.jpg" 
+        alt="" 
+        class="contact-decoration"
+      >
     </div>
   </footer>
 </body>
