@@ -239,6 +239,10 @@ footer .contact-me img.contact-decoration {
     text-align: center;
   }
 
+  main .projects {
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  }
+
   footer .contact-me {
     grid-template-columns: 5fr 4fr;
   }
