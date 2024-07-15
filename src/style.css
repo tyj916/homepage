@@ -234,4 +234,12 @@ footer .contact-me img.contact-decoration {
   header .about-me .description .title {
     text-align: center;
   }
+
+  footer .contact-me {
+    grid-template-columns: 5fr 4fr;
+  }
+}
+
+@media (max-width: 648px) {
+
 }
