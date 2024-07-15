@@ -28,10 +28,6 @@ h2 {
   font-size: 3rem;
 }
 
-h3 {
-  font-size: 2rem;
-}
-
 p {
   line-height: 1.5rem;
 }
@@ -146,15 +142,19 @@ main .projects .project-card .project-detail * {
   margin: 0;
 }
 
+main .projects .project-card .project-detail .title {
+  font-size: 1.8rem;
+}
+
 main .projects .project-card .project-detail .project-links {
   display: flex;
   align-items: center;
   gap: 16px;
-  font-size: 2rem;
+  font-size: 1.8rem;
 }
 
 main .projects .project-card .project-detail .project-links svg {
-  width: 2rem;
+  width: 1.8rem;
 }
 
 main .projects .project-card .project-detail .project-description {
